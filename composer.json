@@ -1,0 +1,7 @@
+{
+    "name": "dhl/global-web-services",
+    "type": "metapackage",
+    "require": {
+        "dhl/module-carrier-express": "dev-master"
+    }
+}
