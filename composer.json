@@ -1,8 +1,12 @@
 {
     "name": "dhl/global-web-services",
+    "description": "DHL multi-division shipping extension for Magento 2",
     "type": "metapackage",
+    "version": "0.1.0",
+    "license": "OSL-3.0",
     "require": {
-        "dhl/module-carrier-express": "dev-master",
-        "dhl/module-ui": "dev-master"
+        "dhl/module-carrier-express": "self.version",
+        "dhl/module-carrier-ecommerce": "self.version",
+        "dhl/module-ui": "self.version"
     }
 }
