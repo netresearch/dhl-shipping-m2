@@ -5,9 +5,14 @@
     "version": "0.5.0",
     "license": "OSL-3.0",
     "require": {
-        "dhl/module-carrier-ecommerce": "0.5.0",
-        "dhl/module-carrier-express": "0.5.0",
-        "dhl/module-carrier-paket": "0.5.0",
-        "dhl/module-ui": "0.5.0"
+        "dhl/module-carrier-ecommerce": "^0.5.1",
+        "dhl/module-carrier-express": "^0.5.1",
+        "dhl/module-carrier-paket": "^0.5.1",
+        "dhl/module-ui": "^0.5.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.5.x-dev"
+        }
     }
 }
