@@ -8,6 +8,7 @@
         "dhl/module-carrier-ecommerce": "^0.5.1",
         "dhl/module-carrier-express": "^0.5.1",
         "dhl/module-carrier-paket": "^0.5.1",
+        "dhl/module-carrier-paket-returns": "^0.1.0",
         "dhl/module-ui": "^0.5.1"
     },
     "extra": {
