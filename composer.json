@@ -5,7 +5,6 @@
     "version": "0.5.0",
     "license": "OSL-3.0",
     "require": {
-        "dhl/module-carrier-ecommerce": "^0.5.1",
         "dhl/module-carrier-express": "^0.5.1",
         "dhl/module-carrier-paket": "^0.5.1",
         "dhl/module-carrier-paket-returns": "^0.1.0",
