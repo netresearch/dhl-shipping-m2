@@ -1,5 +1,5 @@
 {
-    "name": "dhl/shipping-solutions",
+    "name": "dhl/shipping-m2",
     "description": "DHL multi-division shipping extension for Magento 2",
     "type": "metapackage",
     "version": "1.0.0",
