@@ -8,10 +8,5 @@
         "dhl/module-carrier-paket": "^1.0.0",
         "dhl/module-carrier-paket-returns": "^1.0.0",
         "dhl/module-ui": "^1.0.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "1.0.0.x-dev"
-        }
     }
 }
