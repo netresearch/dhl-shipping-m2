@@ -1,8 +1,8 @@
 DHL Shipping Extension for Magento 2
-================================================
+====================================
 
-The extension DHL Shipping is a plugin to integrate DHL logistics APIs into the Magento 2 platform's
-order processing workflow. 
+The extension DHL Shipping is a plugin to integrate DHL logistics APIs
+into the Magento 2 platform's order processing workflow.
 
 This is a *meta package*, which means it is a compilation of several other composer packages
 that only together enable the functionality of the plugin.
