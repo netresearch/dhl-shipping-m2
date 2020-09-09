@@ -2,17 +2,12 @@
     "name": "dhl/shipping-m2",
     "description": "DHL multi-division shipping extension for Magento 2",
     "type": "metapackage",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "license": "OSL-3.0",
     "require": {
         "dhl/module-carrier-paket": "~1.2.0",
         "dhl/module-carrier-paket-returns": "~1.1.0",
         "dhl/module-ui": "~1.2.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-release-1.2.0": "1.2.0.x-dev"
-        }
     }
 
 }

@@ -11,7 +11,7 @@ Please see the file `composer.json` for the full list of included packages.
 
 ## Requirements and Compatibility
 
-Generally, DHL Shipping is compatible with PHP 7.0.6 and later, and Magento 2.2.6 and later.
+Generally, DHL Shipping is compatible with PHP 7.1.3 and later, and Magento 2.3.0 and later.
 
 Please see the packages required in `composer.json` for detailed system requirements.
 
