@@ -10,10 +10,5 @@
         "dhl/module-carrier-paket": "~1.4.0",
         "dhl/module-carrier-paket-returns": "~1.1.0",
         "dhl/module-ui": "~1.2.2"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-customs-regulations": "1.4.0.x-dev"
-        }
     }
 }
