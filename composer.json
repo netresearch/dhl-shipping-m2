@@ -6,15 +6,10 @@
     "license": "OSL-3.0",
     "require": {
         "deutschepost/module-autocomplete-m2": "~1.1.0",
-        "deutschepost/module-addressfactory-m2": "~1.1.0",
+        "deutschepost/module-addressfactory-m2": "~1.1.1",
         "deutschepost/module-internetmarke": "~1.0.0",
         "dhl/module-carrier-paket": "~1.4.1",
-        "dhl/module-carrier-paket-returns": "~1.1.0",
+        "dhl/module-carrier-paket-returns": "~1.1.1",
         "dhl/module-ui": "~1.2.2"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-carrier-dpim": "1.5.0.x-dev"
-        }
     }
 }

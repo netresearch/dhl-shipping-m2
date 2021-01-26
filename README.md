@@ -1,7 +1,7 @@
-DHL Shipping Extension for Magento 2
-====================================
+Post & DHL Shipping Extension for Magento 2
+===========================================
 
-The extension DHL Shipping is a plugin to integrate DHL logistics APIs
+The extension Post & DHL Shipping is a plugin to integrate Post & DHL logistics APIs
 into the Magento 2 platform's order processing workflow.
 
 This is a *meta package*, which means it is a compilation of several other composer packages
@@ -11,7 +11,7 @@ Please see the file `composer.json` for the full list of included packages.
 
 ## Requirements and Compatibility
 
-Generally, DHL Shipping is compatible with PHP 7.1.3 and later, and Magento 2.3.0 and later.
+Generally, Post & DHL Shipping is compatible with PHP 7.1.3 and later, and Magento 2.3.0 and later.
 
 Please see the packages required in `composer.json` for detailed system requirements.
 
@@ -50,4 +50,4 @@ to <dhl.support@netresearch.de>.
 
 ## Copyright
 
-(c) 2020 Netresearch DTT GmbH
+(c) 2021 Netresearch DTT GmbH
