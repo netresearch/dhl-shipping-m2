@@ -11,10 +11,5 @@
         "dhl/module-carrier-paket": "~2.0.0",
         "dhl/module-carrier-paket-returns": "~2.0.0",
         "netresearch/module-shipping-ui": "~2.0.1"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "2.0.0.x-dev"
-        }
     }
 }
