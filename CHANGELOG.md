@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.2.0
+
+### Changed
+
+- Update DHL Parcel Germany carrier module to version 2.2.1
+- Update DHL Parcel Germany returns module to version 2.0.3
+- Update Deutsche Post Internetmarke module to version 2.0.3
+- Update Shipping UI module version 2.1.0
+- Deutsche Post Direkt ADDRESSFACTORY module version 1.2.0
+- Deutsche Post Direkt Autocomplete module version 1.2.0
+
 ## 2.1.0
 
 ### Changed
