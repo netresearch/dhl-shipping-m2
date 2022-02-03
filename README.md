@@ -11,7 +11,7 @@ Please see the file `composer.json` for the full list of included packages.
 
 ## Requirements and Compatibility
 
-Generally, Post & DHL Shipping is compatible with PHP 7.1.3 and later, and Magento 2.3.0 and later.
+Generally, Post & DHL Shipping is compatible with PHP 7.1.3 and later, and Magento 2.3.5 and later.
 
 Please see the packages required in `composer.json` for detailed system requirements.
 
@@ -50,4 +50,4 @@ to <dhl.support@netresearch.de>.
 
 ## Copyright
 
-(c) 2021 Netresearch DTT GmbH
+(c) 2022 Netresearch DTT GmbH

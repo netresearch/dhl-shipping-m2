@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.4.0
+
+### Added
+
+- Book the DHL Paket Warenpost International shipping product.
+- Select the content type option "Commercial Goods" for dutiable shipments.
+
+### Fixed
+
+- Skip scheduled update of the Deutsche Post Internetmarke shipping product list if no API credentials are configured.
+
 ## 2.3.0
 
 ### Added

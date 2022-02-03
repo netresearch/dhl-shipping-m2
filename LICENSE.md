@@ -1,4 +1,4 @@
-Copyright (c) 2021 Netresearch DTT GmbH
+Copyright (c) 2022 Netresearch DTT GmbH
 
 # Open Software License v. 3.0 (OSL-3.0)
 
