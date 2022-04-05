@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.5.0
+
+### Added
+
+- Validate module configuration in admin panel to check if everything is set up properly.
+- Send return shipment labels to the customer email address.
+- Select delivery locations of type _Parcel Shop_ (Paketshop) for orders with DHL Paket shipping method.
+- Show metapackage version number in the _Post & DHL Shipping General Configuration_ group.
+- Specify the email notification address for the _DHL Paket Parcel Outlet Routing_ service in packaging popup.
+- Import _Return Receiver IDs_ configuration setting via CSV file.
+
+### Changed
+
+- Set selected delivery location as order shipping address.
+- Configure the shipping method name as displayed in checkout in the DHL Parcel Germany _Checkout Presentation_ config group.
+- Set the title of the _DHL Parcel Germany Returns_ carrier in its _General Settings_ config group.
+- Show selected shipping product (instead of carrier title) as track title in the _Shipping and Tracking Information_ section of a shipment.
+
+### Removed
+
+- Obsolete _DHL Parcel Germany Returns_ config fields were removed.
+
+### Fixed
+
+- Display selected delivery location in checkout progress sidebar.
+
 ## 2.4.0
 
 ### Added
