@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Show extension-related news in the admin notification inbox.
 
+### Fixed
+
+- Do not persist empty return shipment QR labels (cross-border returns).
+- Fix typing error in checkout service box (DE).
+
 ## 2.6.0
 
 Magento 2.4.4 compatibility release
