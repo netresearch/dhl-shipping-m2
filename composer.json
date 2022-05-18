@@ -10,7 +10,13 @@
         "deutschepost/module-internetmarke": "~2.3.0",
         "dhl/module-carrier-paket": "~2.6.0",
         "dhl/module-carrier-paket-returns": "~2.2.0",
+        "netresearch/module-admin-notification-feed": "~1.0.0",
         "netresearch/module-interactive-batch-processing": "~1.1.0",
         "netresearch/module-shipping-ui": "~2.3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "2.7.0.x-dev"
+        }
     }
 }
