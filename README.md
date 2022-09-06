@@ -13,15 +13,8 @@ Please see the file `composer.json` for the full list of included packages.
 
 Generally, Post & DHL Shipping is compatible with PHP 7.2.0 and later, and Magento 2.3.5 and later.
 
-Please note that with PHP 8.1, any functionality related to PDF handling,
-including booking and printing, will not work due to an
-[issue in the Magento Zend Framwork](https://github.com/magento/zf1/issues/44),
-unless deprecated error reporting is turned off:
-
-
-```
-error_reporting(E_ALL & ~E_DEPRECATED);
-```
+When using PHP 8.1, then make sure to have at least version 1.15.1 of the
+Magento Zend Framwork installed (see [issue #44](https://github.com/magento/zf1/issues/44)).
 
 For detailed system requirements, please see the packages required in `composer.json`.
 
