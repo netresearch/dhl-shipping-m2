@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.8.0
+
+### Added
+
+- On the pickup location finder map in checkout, if available, show description of the building/facility etc. a service point is located within.
+- The "Bulky Goods" service can now be booked with DHL Paket International shipments.
+- Select endorsement (abandon, return) for international, undeliverable shipments.
+- Select "Named Person Only" service with DHL Paket National shipments.
+- Select "No Neighbor Delivery" service with DHL Paket National shipments.
+- Link to Marketplace review page in module configuration.
+
+### Changed
+
+- The "Print Receiver Contact Details" configuration setting is replaced by a "Send Receiver Phone Number" setting that applies to cross-border shipments only.
+
+### Fixed (Shipping Carriers)
+
+- Improve handling of apartment addresses when splitting the recipient street.
+- Prevent application crash when API returns empty response.
+- Prevent broken styling in module configuration.
+- Consider database prefixes in INTERNETMARKE carrier module.
+- Calculation of initial packaging popup input field visibilities.
+
+### Fixed (Deutsche Post Direkt)
+
+- Prevent analysis actions on billing address updates.
+- Consider website level configuration settings during cron analysis.
+- Change deliverability status from "Undeliverable" to "Possibly deliverable" if address was (partially) corrected during address analysis.
+- Replace redundant and confusing mass actions by one configurable mass action.
+- Initialize orders with "Not analysed" status if "No Automatic Analysis" is configured.
+- The configuration setting "automatically cancel" now has higher priority than "automatically put on hold".
+- Display status value "Manually edited" in admin panel orders grid.
+- Show address autocomplete suggestions in the customer account "Add New Address" form.
+
+
 ## 2.7.1
 
 ### Fixed
