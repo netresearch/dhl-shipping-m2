@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.9.0
+
+### Added
+
+- Select "Signed for by recipient" (Empfängerunterschrift) service with DHL Paket National shipments.
+- Select "Postal Delivery Duty Paid" (PDDP) service with DHL Paket International shipments.
+- Select "Closest Droppoint" (CDP) service with DHL Paket International shipments.
+
+### Changed
+
+- Switch from DHL Business Customer Shipping SOAP API to DHL Parcel DE Shipping REST API.
+- The DHL Paket "Print Only If Codeable" config setting can no longer be updated in packaging popup.
+
+### Fixed
+
+- Prevent exception when loading return shipments with no shipment number in admin panel grid.
+- Prevent type error when loading service charge amounts from module configuration.
+
 ## 2.8.0
 
 ### Added
