@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.10.0
+
+### Added
+
+- Select "Postal Delivery Duty Paid" (PDDP) service with shipments to Switzerland (CH).
+- Declare customs reference numbers with DHL Paket International shipments.
+
+### Fixed
+
+- Prevent DHL service box rendering issues in checkout.
+- Successful Autocomplete requests are no longer logged.
+- New orders are now scheduled for address check if _Analysis via Cron_ is enabled.
+
 ## 2.9.0
 
 ### Added
