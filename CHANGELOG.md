@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.14.0
+
+Magento 2.4.8 compatibility release
+
+### Added
+
+- Support for Magento 2.4.8
+- Support for PHP 8.3 and PHP 8.4
+- Support for GoGreen Plus service for domestic shipments
+- Support for GoGreen Plus service for domestic return shipments
+
+### Changed
+
+- Updated shipping API service schema to v2.1.12
+
+### Removed
+
+- Support for PHP 8.2
+
 ## 2.13.0
 
 Extended Customs Information
