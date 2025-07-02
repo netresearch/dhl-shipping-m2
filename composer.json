@@ -2,16 +2,16 @@
     "name": "dhl/shipping-m2",
     "description": "DHL multi-division shipping extension for Magento 2",
     "type": "metapackage",
-    "version": "2.13.0",
+    "version": "2.14.0",
     "license": "OSL-3.0",
     "require": {
-        "deutschepost/module-autocomplete-m2": "~1.5.0",
-        "deutschepost/module-addressfactory-m2": "~1.5.0",
-        "deutschepost/module-internetmarke": "~2.5.0",
-        "dhl/module-carrier-paket": "~3.3.0",
-        "dhl/module-carrier-paket-returns": "~2.3.0",
-        "netresearch/module-admin-notification-feed": "~1.1.0",
-        "netresearch/module-interactive-batch-processing": "~1.2.0",
-        "netresearch/module-shipping-ui": "~2.5.0"
+        "deutschepost/module-autocomplete-m2": "~1.6.0",
+        "deutschepost/module-addressfactory-m2": "~1.6.0",
+        "deutschepost/module-internetmarke": "~2.6.0",
+        "dhl/module-carrier-paket": "~3.4.0",
+        "dhl/module-carrier-paket-returns": "~2.4.0",
+        "netresearch/module-admin-notification-feed": "~1.2.0",
+        "netresearch/module-interactive-batch-processing": "~1.3.0",
+        "netresearch/module-shipping-ui": "~2.6.0"
     }
 }
