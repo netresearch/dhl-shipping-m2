@@ -25,7 +25,7 @@ jobs:
       skip-composer-audit: true
 
   magento-composer-audit:
-    uses: netresearch/magento-ci-workflows/.github/workflows/composer-audit.yml@v0.1.0
+    uses: netresearch/magento-ci-workflows/.github/workflows/composer-audit.yml@v0.1.1
     secrets:
       MAGENTO_REPO_USERNAME: ${{ secrets.MAGENTO_REPO_USERNAME }}
       MAGENTO_REPO_PASSWORD: ${{ secrets.MAGENTO_REPO_PASSWORD }}
