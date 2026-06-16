@@ -21,3 +21,8 @@ jobs:
 
   composer-audit:
     uses: netresearch/typo3-ci-workflows/.github/workflows/security.yml@main
+    with:
+      # M2 module deps need Magento Marketplace auth (unavailable in CI);
+      # skip the composer audit so the Security workflow is green. gitleaks +
+      # dependency-review still run.
+      skip-composer-audit: true
