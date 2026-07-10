@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.17.0
+
+US customs changes effective 2026-07-24.
+
+### Added
+
+- Require the 10-digit HTSUS customs tariff number per item for shipments into the US customs territory (USA, Puerto Rico)
+
+### Changed
+
+- pDDP value thresholds switch from 800 USD / 680 EUR to 2,500 USD / 2,125 EUR at the 2026-07-24 cutover
+
+### Fixed
+
+- Show service option tooltips in the packaging popup and keep them legible for disabled options
+
+### Removed
+
+- Deutsche Post Autocomplete and Addressfactory modules (distribution sunset)
+
 ## 2.16.0
 
 Magento 2.4.9 compatibility release
